@@ -3,6 +3,7 @@ import { Card, CardContent, CardTitle } from "../../components/ui/card";
 import { Target } from "lucide-react";
 import { useHref } from "react-router-dom";
 
+
 export const MacbookAir = (): JSX.Element => {
   // Project data for mapping
   const projects = [
@@ -11,7 +12,7 @@ export const MacbookAir = (): JSX.Element => {
       description:
         "Designed an Art Selling website where a customer can shop for a wide variety of items and place the order.",
       image:
-       `${process.env.PUBLIC_URL}/artweb.png`,
+        "/artweb.png",
       link: "https://github.com/sricharitha16/Art-selling-web",
     },
     

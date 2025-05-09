@@ -11,7 +11,7 @@ export const MacbookAir = (): JSX.Element => {
       description:
         "Designed an Art Selling website where a customer can shop for a wide variety of items and place the order.",
       image:
-        "/artweb.png",
+        "artweb.png",
       link: "https://github.com/sricharitha16/Art-selling-web",
     },
     

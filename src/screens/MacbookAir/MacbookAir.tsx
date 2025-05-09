@@ -12,7 +12,7 @@ export const MacbookAir = (): JSX.Element => {
       description:
         "Designed an Art Selling website where a customer can shop for a wide variety of items and place the order.",
       image:
-        "/artweb.png",
+        "artweb.png",
       link: "https://github.com/sricharitha16/Art-selling-web",
     },
     
@@ -21,7 +21,7 @@ export const MacbookAir = (): JSX.Element => {
       description:
         "Developed a cafe management website where customers can book an event and view cafe's menu.",
       image:
-        "/cafeweb.png",
+        "cafeweb.png",
       link: "https://github.com/sricharitha16/cafe-management-web",
     },
     {
@@ -29,7 +29,7 @@ export const MacbookAir = (): JSX.Element => {
       description:
         "Developed an educational institution application with 5 different dashboards and implemented CRUD operations.",
       image:
-        "/wdm.png",
+        "wdm.png",
       link: "https://github.com/sricharitha16",
     },
   ];

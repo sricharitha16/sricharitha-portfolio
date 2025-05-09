@@ -4,6 +4,7 @@ import { Target } from "lucide-react";
 import { useHref } from "react-router-dom";
 
 
+
 export const MacbookAir = (): JSX.Element => {
   // Project data for mapping
   const projects = [
@@ -12,7 +13,9 @@ export const MacbookAir = (): JSX.Element => {
       description:
         "Designed an Art Selling website where a customer can shop for a wide variety of items and place the order.",
       image:
-        "artweb.png",
+        "/sricharitha-portfolio/artweb.png"
+
+,
       link: "https://github.com/sricharitha16/Art-selling-web",
     },
     
@@ -21,7 +24,7 @@ export const MacbookAir = (): JSX.Element => {
       description:
         "Developed a cafe management website where customers can book an event and view cafe's menu.",
       image:
-        "cafeweb.png",
+        "/sricharitha-portfolio/cafeweb.png",
       link: "https://github.com/sricharitha16/cafe-management-web",
     },
     {
@@ -29,7 +32,7 @@ export const MacbookAir = (): JSX.Element => {
       description:
         "Developed an educational institution application with 5 different dashboards and implemented CRUD operations.",
       image:
-        "wdm.png",
+        "/sricharitha-portfolio/wdm.png",
       link: "https://github.com/sricharitha16",
     },
   ];
@@ -41,58 +44,58 @@ export const MacbookAir = (): JSX.Element => {
     {
       category: "Programming Languages:",
       icons: [
-        { src: "/icons8-javascript-50-1.png", alt: "Javascript" },
-        { src: "/icons8-python-50-1.png", alt: "Python" },
-        { src: "/icons8-typescript-50-2.png", alt: "Typescript" },
-        { src: "/icons8-java-50-1.png", alt: "Java" },
-        { src: "/icons8-c-50-1.png", alt: "C" },
-        { src: "/icons8-c-programming-50-1.png", alt: "C programming" },
+        { src: "/sricharitha-portfolio/icons8-javascript-50-1.png", alt: "Javascript" },
+        { src: "/sricharitha-portfolio/icons8-python-50-1.png", alt: "Python" },
+        { src: "/sricharitha-portfolio/icons8-typescript-50-2.png", alt: "Typescript" },
+        { src: "/sricharitha-portfolio/icons8-java-50-1.png", alt: "Java" },
+        { src: "/sricharitha-portfolio/icons8-c-50-1.png", alt: "C" },
+        { src: "/sricharitha-portfolio/icons8-c-programming-50-1.png", alt: "C programming" },
       ],
     },
     {
       category: "Web Development Frameworks/Technologies:",
       icons: [
-        { src: "/icons8-html-5-50-1.png", alt: "Html" },
-        { src: "/icons8-css3-50-1.png", alt: "Icons css" },
-        { src: "/icons8-react-30-1.png", alt: "React" },
-        { src: "/icons8-django-24-1.png", alt: "Django" },
-        { src: "/icons8-jquery-50-1.png", alt: "Jquery" },
-        { src: "/icons8-node-js-32-1.png", alt: "Node js" },
-        { src: "/icons8-rest-api-24-1.png", alt: "Rest api" },
-        { src: "/icons8-bootstrap-50-1.png", alt: "Bootstrap" },
-        { src: "/icons8-tailwind-css-24-1.png", alt: "Tailwind css" },
-        { src: "/icons8-graphql-50-1.png", alt: "Graphql" },
-        { src: "/icons8-wordpress-50-1.png", alt: "Wordpress" },
-        { src: "/icons8-angular-50-1.png", alt: "Angular" },
+        { src: "/sricharitha-portfolio/icons8-html-5-50-1.png", alt: "Html" },
+        { src: "/sricharitha-portfolio/icons8-css3-50-1.png", alt: "Icons css" },
+        { src: "/sricharitha-portfolio/icons8-react-30-1.png", alt: "React" },
+        { src: "/sricharitha-portfolio/icons8-django-24-1.png", alt: "Django" },
+        { src: "/sricharitha-portfolio/icons8-jquery-50-1.png", alt: "Jquery" },
+        { src: "/sricharitha-portfolio/icons8-node-js-32-1.png", alt: "Node js" },
+        { src: "/sricharitha-portfolio/icons8-rest-api-24-1.png", alt: "Rest api" },
+        { src: "/sricharitha-portfolio/icons8-bootstrap-50-1.png", alt: "Bootstrap" },
+        { src: "/sricharitha-portfolio/icons8-tailwind-css-24-1.png", alt: "Tailwind css" },
+        { src: "/sricharitha-portfolio/icons8-graphql-50-1.png", alt: "Graphql" },
+        { src: "/sricharitha-portfolio/icons8-wordpress-50-1.png", alt: "Wordpress" },
+        { src: "/sricharitha-portfolio/icons8-angular-50-1.png", alt: "Angular" },
       ],
     },
     {
       category: "Database Management Systems:",
       icons: [
-        { src: "/icons8-postgresql-50-1.png", alt: "Postgresql" },
-        { src: "/icons8-mysql-50-1.png", alt: "Mysql" },
-        { src: "/icons8-mongodb-24-1.png", alt: "Mongodb" },
-        { src: "/icons8-sqlite-50-1.png", alt: "Sqlite" },
+        { src: "/sricharitha-portfolio/icons8-postgresql-50-1.png", alt: "Postgresql" },
+        { src: "/sricharitha-portfolio/icons8-mysql-50-1.png", alt: "Mysql" },
+        { src: "/sricharitha-portfolio/icons8-mongodb-24-1.png", alt: "Mongodb" },
+        { src: "/sricharitha-portfolio/icons8-sqlite-50-1.png", alt: "Sqlite" },
       ],
     },
     {
       category: "Development Tools and Frameworks:",
       icons: [
-        { src: "/icon.svg", alt: "Icon" },
-        { src: "/icons8-visual-studio-50-1.png", alt: "Visual studio" },
-        { src: "/icons8-selenium-50-1.png", alt: "Selenium" },
-        { src: "/icons8-jira-50-1.png", alt: "Jira" },
-        { src: "/icons8-postman-api-64-1.png", alt: "Postman api" },
+        { src: "/sricharitha-portfolio/icon.svg", alt: "Icon" },
+        { src: "/sricharitha-portfolio/icons8-visual-studio-50-1.png", alt: "Visual studio" },
+        { src: "/sricharitha-portfolio/icons8-selenium-50-1.png", alt: "Selenium" },
+        { src: "/sricharitha-portfolio/icons8-jira-50-1.png", alt: "Jira" },
+        { src: "/sricharitha-portfolio/icons8-postman-api-64-1.png", alt: "Postman api" },
       ],
     },
     {
       category: "Design and Graphic Editing Tools:",
       icons: [
-        { src: "/icons8-figma-50-1.png", alt: "Figma" },
-        { src: "/icons8-adobe-illustrator-50-1.png", alt: "Adobe" },
-        { src: "/icons8-adobe-photoshop-50-1.png", alt: "Adobe" },
-        { src: "/icons8-adobe-xd-50-1.png", alt: "Adobe xd" },
-        { src: "/icons8-framer-logo-24-1.png", alt: "Framer logo" },
+        { src: "/sricharitha-portfolio/icons8-figma-50-1.png", alt: "Figma" },
+        { src: "/sricharitha-portfolio/icons8-adobe-illustrator-50-1.png", alt: "Adobe" },
+        { src: "/sricharitha-portfolio/icons8-adobe-photoshop-50-1.png", alt: "Adobe" },
+        { src: "/sricharitha-portfolio/icons8-adobe-xd-50-1.png", alt: "Adobe xd" },
+        { src: "/sricharitha-portfolio/icons8-framer-logo-24-1.png", alt: "Framer logo" },
       ],
     },
     {
@@ -107,10 +110,10 @@ export const MacbookAir = (): JSX.Element => {
 
   // Social media links
   const socialLinks = [
-    { src: "/linkedin-2.png", alt: "Linkedin", link:"http://www.linkedin.com/in/sricharitha-t/"},
-    { src: "/github.png", alt: "Git hub", link:"https://github.com/sricharitha16" },
-    { src: "/letter.png", alt: "Letter", link:"sricharitha.t16@gmail.com" },
-    { src: "/instagram.png", alt: "Instagram", link:"https://www.instagram.com/artbysricharitha/" },
+    { src: "/sricharitha-portfolio/linkedin-2.png", alt: "Linkedin", link:"http://www.linkedin.com/in/sricharitha-t/"},
+    { src: "/sricharitha-portfolio/github.png", alt: "Git hub", link:"https://github.com/sricharitha16" },
+    { src: "/sricharitha-portfolio/letter.png", alt: "Letter", link:"sricharitha.t16@gmail.com" },
+    { src: "/sricharitha-portfolio/instagram.png", alt: "Instagram", link:"https://www.instagram.com/artbysricharitha/" },
   ];
 
   return (
@@ -145,7 +148,7 @@ export const MacbookAir = (): JSX.Element => {
               <img
                 className="absolute w-[97px] h-[103px] top-[15px] left-[426px]"
                 alt="Flower ICON"
-                src="/flower-icon.svg"
+                src="/sricharitha-portfolio/flower-icon.svg"
               />
 
               <CardTitle className="absolute w-[489px] top-0 left-0 [font-family:'Inknut_Antiqua',Helvetica] font-bold text-[#ceaf6d] text-xs tracking-[0] leading-[normal] underline">
@@ -165,17 +168,18 @@ export const MacbookAir = (): JSX.Element => {
                       </div>
                     </div>
 
-                    <img
-                      className="absolute w-[137px] h-0.5 top-[180px] left-[7px]"
-                      alt="Border"
-                      src="/border-2.svg"
-                    />
+                    
 
                     <div className="absolute w-[135px] h-[119px] top-[9px] left-1.5">
                       <img
+                      className="absolute w-[135px] h-0.5 top-[180px] left-[7px]"
+                      alt="Border"
+                      src="/sricharitha-portfolio/border-2.svg"
+                    />
+                    <img
                         className="absolute w-[134px] h-0.5 top-[117px] left-0"
                         alt="Border"
-                        src="/border.svg"
+                        src="/sricharitha-portfolio/border.svg"
                       />
 
                       <a href={project.link} className="block" target="_blank" rel="noopener noreferrer">
@@ -185,11 +189,7 @@ export const MacbookAir = (): JSX.Element => {
                         />
                       </a>
 
-                      <img
-                        className="absolute w-5 h-[18px] top-0 left-[110px]"
-                        alt="Arrow ICON"
-                        src="/arrow-icon.svg"
-                      />
+                    
 
                       <div className="absolute w-[103px] top-0 left-1.5 [font-family:'Inter',Helvetica] font-medium text-[#2e284c] text-[10px] tracking-[0] leading-[normal]">
                         {project.title}
@@ -204,7 +204,7 @@ export const MacbookAir = (): JSX.Element => {
 
         <div
           className="absolute w-[309px] h-[381px] top-[130px] left-[578px] rounded-[20px] bg-cover bg-center"
-          style={{ backgroundImage: "url(/image.png)" }}
+          style={{ backgroundImage: "url(/sricharitha-portfolio/image.png)" }}
         />
 
         <Card className="w-[344px] h-[558px] top-[132px] left-[912px] bg-[#2e284c] absolute rounded-[20px] overflow-hidden border-none">
@@ -240,7 +240,7 @@ export const MacbookAir = (): JSX.Element => {
               <img
               className="absolute w-6 h-[26px] top-[17px] left-[302px]"
               alt="Arrow ICON"
-              src="/arrow-icon.svg" 
+              src="/sricharitha-portfolio/arrow-icon.svg" 
             /></a>
           </CardContent>
         </Card>
@@ -250,7 +250,7 @@ export const MacbookAir = (): JSX.Element => {
             <img
               className="absolute w-[38px] h-[38px] top-3.5 left-[333px]"
               alt="Circle ICON"
-              src="/circle-icon.svg"
+              src="/sricharitha-portfolio/circle-icon.svg"
             />
 
             <div className="absolute w-[86px] h-[22px] top-[13px] left-[31px] [font-family:'Inter',Helvetica] font-semibold text-[#ceaf6d] text-sm tracking-[0] leading-[18.2px] underline">
@@ -269,22 +269,22 @@ export const MacbookAir = (): JSX.Element => {
                 <img
                   className="absolute w-[250px] h-0.5 top-[180px] left-[px]"
                   alt="Border"
-                  src="/border-1.svg"
+                  src="/sricharitha-portfolio/border-1.svg"
                 />
 
                 <div className="absolute w-[135px] h-[119px] top-[9px] left-1.5">
                   <img
                     className="absolute w-[134px] h-0.5 top-[117px] left-0"
                     alt="Border"
-                    src="/border.svg"
+                    src="/sricharitha-portfolio/border.svg"
                   />
 
                   <div className="bg-[url(/artui.png)] absolute w-[124px] h-[89px] top-[22px] left-1.5 rounded-2xl bg-cover bg-center" />
 
                   <img
-                    className="absolute w-5 h-5 top-0 left-[104px] z-10"
+                    className="absolute w-15 h-15 top-0 left-[104px] z-1"
                     alt="Arrow ICON"
-                    src="/arrow-icon.svg"
+                    src="/sricharitha-portfolio/arrow-icon.svg"
                   />
 
                   <div className="absolute w-[98px] top-0 left-1.5 [font-family:'Inter',Helvetica] font-medium text-[#2e284c] text-sm tracking-[0] leading-[normal]">

@@ -33,7 +33,7 @@ export const MacbookAir = (): JSX.Element => {
         "Developed an educational institution application with 5 different dashboards and implemented CRUD operations.",
       image:
         "/sricharitha-portfolio/wdm.png",
-      link: "https://github.com/sricharitha16",
+      link: "https://github.com/sricharitha16/academic-dashboard",
     },
   ];
 
